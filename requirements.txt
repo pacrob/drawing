@@ -1,0 +1,6 @@
+matplotlib
+argparse
+opencv-python
+numpy
+pytest
+black
