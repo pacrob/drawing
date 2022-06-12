@@ -10,6 +10,12 @@ def test_polygon_default():
     assert bob.num_sides == 5
 
     printed_bob = bob.__repr__()
-    assert printed_bob == 'A polygon with 5 sides and radius 50 that is (255, 0, 0)'
-    
-    assert bob.generate_vertices(0, 0) == [(49, 0), (16, -47), (-39, -30), (-41, 28), (14, 47)]
+    assert printed_bob == "A polygon with 5 sides and radius 50 that is (255, 0, 0)"
+
+    assert bob.generate_vertices(0, 0) == [
+        (49, 0),
+        (16, -47),
+        (-39, -30),
+        (-41, 28),
+        (14, 47),
+    ]

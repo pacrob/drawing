@@ -1,5 +1,6 @@
 import math
 
+
 class Polygon:
     def __init__(self, radius, num_sides, color=(255, 0, 0)):
         self.num_sides = num_sides
@@ -7,9 +8,7 @@ class Polygon:
         self.radius = radius
 
     def __repr__(self):
-        return (
-            f"A polygon with {self.num_sides} sides and radius {self.radius} that is {self.color}"
-        )
+        return f"A polygon with {self.num_sides} sides and radius {self.radius} that is {self.color}"
 
     def generate_vertices(self, x: int, y: int):
         # figure out how to calc line locations based on center point
